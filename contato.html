@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto Orientado</title>
+    <link href="CSS/contato.css" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="corpo">
+
+<h1>Projeto Orientado</h1>
+
+<div class="conteudo">
+
+<p id="home">
+    <a href="index.html">Home</a> | <a href="iris_oliveira.html">Iris Oliveira</a> | <a href="mateus_dobbins.html">Mateus Dobbins</a> | <a href="tabela_curiosidades.html">Tabela de curiosidades</a> | <a href="sites_favoritos.html">Sites favoritos</a> | <a href="descobrindo_tags.html">Descobrindo tags</a> | <a href="descobrindo_css.html">Descobrindo Propriedades CSS</a> | <a>Contato</a>
+</p>
+
+<h2 class="titulodois">Contato</h2>
+
+<div id="area">
+
+<form id="formulario" method="post" action="http://hub.fatecrl.edu.br/sobrino/recebe.php"> 
+
+<fieldset>
+
+    <legend>Formulário</legend>
+<p class="frase">
+<label for="nome">Nome</label><br>
+
+<input type="text" name="nome" id="nome" size="35" maxlength="30" placeholder="Digite aqui" required> 
+</p>
+
+<p class="frase">
+<label for="email">Seu e-mail</label><br>
+
+<input type="email" name="email" id="email" size="30" maxlength="30" placeholder="Digite aqui" required>
+</p>
+
+<p class="frase">
+<label>Selecione o seu curso abaixo</label><br>
+<select name="curso" required>
+    <option value="" id="sel" selected>Selecione aqui</option>
+    <option value="sin" id="sin">Sistemas para Internet</option>
+    <option value="ads" id="ads">Análise e Desenvolvimento de Sistemas</option>
+    <option value="si" id="si">Sistemas de Informação</option>
+    <option value="outro" id="outro">Outros</option>
+</select>
+</p>
+
+<p class="frase">
+<label for="mensagem">Mensagem</label><br>
+<textarea name="mensagem" id="mensagem" rows="4" cols="50" required></textarea>
+</p>
+
+<p class="frase">
+Deseja receber nossas notificações?<br>
+<input type="radio" id="radioUm" name="notificações" value="Sim"><label for="radioUm">Sim</label><br>
+<input type="radio" id="radioDois" name="notificações" value="Não"><label for="radioDois">Não</label>
+</p>
+
+<p class="frase">
+Assinale seus interesses: <br>
+<input type="checkbox" id="filmes" name="interesses-filmes" value="filmes"> <label for="filmes">Filmes</label><input type="checkbox" id="animes" name="interesses-animes" value="animes"><label for="animes">Animes</label> <input type="checkbox" id="livros" name="interesses-livros" value="livros"><label for="livros">Livros</label>
+</p>
+
+<p class="frase">
+<label for="pass">Crie uma senha:</label>
+<input type="password" id="pass" name="password" maxlength="8" required placeholder="no máximo 8 dígitos">
+</p>
+
+<p class="frase">
+<input type="submit" value="Enviar">
+</p>
+
+</fieldset>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+
+</html>

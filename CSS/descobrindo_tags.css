@@ -1,0 +1,110 @@
+h1 {
+    color: #471975;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    font-size:xx-large;
+    font-weight: 500;
+}
+
+h2 {
+    color: #471975;
+    font-family:sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+
+}
+
+h3 {
+    color: #da15a8;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    float:left;
+    width: 500px;
+    text-align: left;
+
+}
+
+.home {
+    font-family:sans-serif;
+    color: #2A0E46;
+    letter-spacing: 1px;
+    font-size:medium;
+    font-weight: 500;
+    width:800;
+    text-align: center;
+    padding: 1em 3px 30px 5px;
+    margin-right:200px;
+}
+
+.corpo {
+    width: 960px;
+    margin: auto;
+    margin-left: 180px;
+}
+
+.conteudo {
+    display: table;
+}
+
+.tags {
+    font-family:sans-serif;
+    color: #471975;
+    letter-spacing: 1px;
+    font-size:medium;
+    font-weight: 500;
+    display: table-cell;
+    float: left;
+    width:700px;
+    text-align:left;
+}
+
+body {
+    background-image:url("background.jpg");
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-weight:500;
+    width: 500px;
+    text-align: left;
+    float: left;
+    margin-bottom: 30px;
+    color:#471975;
+}
+
+mark {
+    display: table-cell;
+    float: left;
+    width: 80px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+sub {
+    display: table-cell;
+    float: left;
+    width: 500px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color:#471975;
+    margin-left: 20px;
+}
+
+cite {
+    display: table-cell;
+    float: left;
+    width: 500px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color:#471975;
+    margin-left: 20px;
+}
+
+strong {
+    color:#da15a8;
+}
+
