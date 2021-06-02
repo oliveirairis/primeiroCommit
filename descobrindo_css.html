@@ -22,7 +22,7 @@
 
 <h2>Descobrindo Propriedades CSS</h2>
 
-<h3>letter-spacing</h3>
+<h3>1. letter-spacing</h3>
 
 <p class="frase">
 Essa propriedade caracteriza a espaçamento (distância) entre as letras do conteúdo escolhido.<br> Vale ressaltar que essa distância deve ser digitada em pixels.
@@ -48,7 +48,7 @@ Na folha de estilos:
 
 <blockquote class="exemploUm"><i>Descobrindo Propriedades CSS</i></blockquote>
 
-<h3>line-height</h3>
+<h3>2. line-height</h3>
 
 <p class="frase">Essa propriedade define o valor do espaçamento entre as linhas de um texto.</p>
 
@@ -70,7 +70,11 @@ Na folha de estilos:
 
 <blockquote class="exemploDois"><i>Descobrindo<br>Propriedades<br>CSS</i></blockquote>
 
-<h3>font-weight</h3>
+<h3>3. font-weight</h3>
+
+<p class="frase">
+Essa propriedade especifica a "intensidade" da fonte a ser utilizada.
+</p>
 
 <p class="frase"><u>
 Exemplo:
@@ -90,6 +94,69 @@ Na folha de estilos: <strong>.exemploTres {<br>
 <p class="frase"><u>Resultado:</u></p>
 
 <blockquote class="exemploTres"><i>Descobrindo Propriedades CSS</i></blockquote>
+
+<h3>4. border-collapse</h3>
+
+<p class="frase">
+A propriedade border-collapse diz respeito ao modelo de borda que poderá ser utilizado.
+</p>
+
+<p class="frase"><u>
+Exemplo:
+</u></p>
+
+<p class="frase">
+No html: <strong>
+<br>&lt;table id="tabela"&gt;<br>
+    &nbsp;&nbsp;&lt;tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Nome&lt;/th&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Sobrenome&lt;/th&gt;<br>
+    &nbsp;&nbsp;&lt;/tr&gt;<br>
+    &nbsp;&nbsp;&lt;tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Iris&lt;/td&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Oliveira&lt;/td&gt;<br>
+    &nbsp;&nbsp;&lt;/tr&gt;<br>
+    &nbsp;&nbsp;&lt;tr&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Mateus&lt;/td&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Dobbins&lt;/td&gt;<br>
+    &nbsp;&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;
+</strong>
+</p>
+
+<p class="frase">
+Na folha de estilos:<br><strong>
+    #tabela, td ,th {<br>
+        border: 3px solid #da15a8;<br>
+        border-collapse: collapse;<br>
+        width:350px;<br>
+        text-align: center;<br>
+        font-family:sans-serif;<br>
+        color: #471975;<br>
+        letter-spacing: 1px;<br>
+        font-size:medium;<br>
+        font-weight: 500;<br>
+}
+</strong>
+</p>
+
+<p class="frase"><u>Resultado:</u></p>
+
+    <table id="tabela">
+        <tr>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+        </tr>
+        <tr>
+          <td>Iris</td>
+          <td>Oliveira</td>
+        </tr>
+        <tr>
+          <td>Mateus</td>
+          <td>Dobbins</td>
+        </tr>
+    </table>
+
 
 </div>
 

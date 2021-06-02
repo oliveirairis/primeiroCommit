@@ -40,18 +40,36 @@ h3 {
 
 body {
     background-image:url("background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 #home {
     font-family:sans-serif;
-    color: #2A0E46;
+    color: #e3daec;
     letter-spacing: 1px;
     font-size:medium;
     font-weight: 500;
-    width:800;
     text-align: center;
-    padding: 1em 3px 30px 5px;
-    margin-right:200px;
+    padding: 1em 3px 30px 6px;
+    margin-right:-200px;
+    margin-left: -190px;
+    background-color: #2A0E46;
+    padding: 25px;
+    border-left: 14px solid #a786c9;
+    width:100vw;
+}
+
+a:link {
+    color:#d3c1e6;
+}
+
+a:hover {
+    color:#e3daec;
+}
+
+a:visited {
+    color:#d3c1e6;
 }
 
 .frase {
@@ -88,4 +106,16 @@ i {
 
 strong {
     color:#da15a8;
+}
+
+#tabela, td ,th {
+    border: 3px solid #da15a8;
+    border-collapse: collapse;
+    width:350px;
+    text-align: center;
+    font-family:sans-serif;
+    color: #471975;
+    letter-spacing: 1px;
+    font-size:medium;
+    font-weight: 500;
 }
